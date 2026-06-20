@@ -1,66 +1,66 @@
-# CommerceIQ — Offline-First E-Commerce Learning Platform
+# CommerceLQ — Offline-First E-Commerce Learning Platform
 
-**CommerceIQ** is an offline-first e-commerce learning platform built with Flutter. Users explore structured business courses, follow step-by-step roadmaps, track progress, bookmark lessons, and grow their skills — all without the internet.
+**CommerceLQ** is a production-ready, offline-first mobile application built with Flutter. It serves as a comprehensive e-commerce learning platform designed to help users explore structured business courses, follow step-by-step roadmaps, track learning progress, and bookmark important lessons—all seamlessly without requiring an internet connection.
 
-## Features
-- Offline-first Architecture (SQLite)
-- Clean Architecture
-- Riverpod State Management
-- GoRouter Navigation
-- Dynamic beautiful UI matching modern aesthetics
-- Bookmark management & Recently viewed tracking
-- Offline full-text search
+<div align="center">
+  <img src="assets/images/app_icon.png" width="150" alt="CommerceLQ Logo">
+</div>
 
-## Running the App
-1. `flutter pub get`
-2. `flutter run`
+## ✨ Key Features
+- **Offline-First Architecture**: Powered by SQLite, ensuring 100% functionality without network dependence.
+- **Clean Architecture**: Separation of concerns using Domain, Data, and Presentation layers.
+- **Reactive State Management**: Implementation of Riverpod for robust, scalable state handling.
+- **Advanced Navigation**: Type-safe routing using GoRouter with custom smooth page transitions.
+- **Persistent Data**: Local storage for user progress, streak tracking, and bookmarks.
+- **Dynamic UI/UX**: Premium, modern aesthetics with glassmorphism touches and fluid animations (using `flutter_animate`).
 
----
+## 🛠️ Technology Stack
+- **Framework**: Flutter (Dart)
+- **State Management**: Riverpod (`flutter_riverpod`)
+- **Local Database**: SQLite (`sqflite`, `path_provider`)
+- **Routing**: GoRouter
+- **Animations**: `flutter_animate`
+- **Native Integrations**: `share_plus`, `url_launcher`, `shared_preferences`
 
-## 📌 Original Prompt
+## 🚀 Getting Started
 
-```markdown
-# CommerceIQ — Complete Flutter Project Prompt
-## Offline-First E-Commerce Learning Platform
+### Prerequisites
+- Flutter SDK (stable channel)
+- Android Studio / Xcode
 
----
-
-## 🎯 PROJECT OVERVIEW
-
-Build a **production-ready Flutter application** called **CommerceIQ** — an offline-first e-commerce learning platform. Users explore structured business courses, follow step-by-step roadmaps, track progress, bookmark lessons, and grow their skills — all without internet.
-
-**Tagline:** *"Learn E-commerce. Build Skills. Grow Business."*
-
-**Target:** Android & iOS. Portfolio-grade codebase. Clean Architecture. Riverpod. GoRouter. SQLite.
-
----
-
-## 🎨 UI DESIGN REFERENCE (STRICTLY FOLLOW)
-
-The UI design is inspired by the provided screenshots. Follow these exact visual patterns:
-
-### Screen 1 — Category / Course List Screen
-- White background (`#F8FAFC`)
-- Top AppBar: bold title, back arrow left, filter icon right
-- **Filter chips row**
-- **Course cards** (white, rounded-16, subtle shadow)
-
-### Screen 2 — Course / Roadmap Detail Screen
-- AppBar: "Business Roadmap", bookmark + share icons
-- **Course hero card**
-- **Progress card** (solid purple `#7C3AED` bg, white text, rounded-16)
-- **"8-Step Roadmap"** section header
-- **Timeline-style step list**
-
-### Screen 3 — Lesson / Step Detail Screen
-- AppBar: step title centered, bookmark + share icons
-- **Progress bar** full-width at top
-- **Checklist items**
-- **Expert Insight box**
-- **Bottom sticky button**: "✓ Save Progress"
-
----
-
-## 🏗️ TECH STACK
-- Flutter, Riverpod, GoRouter, sqflite, path_provider, flutter_animate, share_plus
+### Installation
+1. Clone the repository
+```bash
+git clone https://github.com/YOUR_USERNAME/CommerceLQ.git
 ```
+2. Fetch dependencies
+```bash
+flutter pub get
+```
+3. Run the application
+```bash
+flutter run
+```
+
+## 📱 Screenshots
+<p align="center">
+  <img src="CommerceLQ%20Screenshots/SplashScreen.png" width="220" alt="Splash Screen">
+  <img src="CommerceLQ%20Screenshots/HomePage.png" width="220" alt="Home Page">
+  <img src="CommerceLQ%20Screenshots/SelectBusness.png" width="220" alt="Select Business">
+  <img src="CommerceLQ%20Screenshots/busnessLesson1.png" width="220" alt="Roadmap">
+</p>
+<p align="center">
+  <img src="CommerceLQ%20Screenshots/Learn1.png" width="220" alt="Learning Step 1">
+  <img src="CommerceLQ%20Screenshots/Learn2.png" width="220" alt="Learning Step 2">
+  <img src="CommerceLQ%20Screenshots/Search.png" width="220" alt="Search">
+  <img src="CommerceLQ%20Screenshots/Bookmark.png" width="220" alt="Bookmarks">
+</p>
+<p align="center">
+  <img src="CommerceLQ%20Screenshots/Profile.png" width="220" alt="Profile">
+</p>
+
+## 🤝 Contributing
+Feel free to fork this project and submit pull requests. For major changes, please open an issue first to discuss what you would like to change.
+
+## 📄 License
+This project is open source and available under the [MIT License](LICENSE).
